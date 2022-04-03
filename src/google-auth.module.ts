@@ -63,7 +63,6 @@ export class GoogleAuthModule {
       ]);
     } else {
       const asyncConfig = config as ConfigModuleAsync;
-      module.imports = module.imports.concat(asyncConfig?.imports || []);
       module.providers = module.providers.concat([
         {
           provide: GOOGLE_AUTH_CONFIG_MODULE_TOKEN,
