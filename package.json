@@ -1,6 +1,6 @@
 {
   "name": "google-auth-nestjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Google login package for NestJs",
   "author": "Ilia Loginov",
   "license": "MIT",
