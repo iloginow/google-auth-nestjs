@@ -18,8 +18,8 @@ import { GoogleAuthModule } from 'google-auth-nestjs';
 @Module({
   imports: [
     GoogleAuthModule.forRoot({
-      clientId: 'your-facebook-clientid',
-      clientSecret: 'your-facebook-client-secret',
+      clientId: 'your-google-clientid',
+      clientSecret: 'your-google-client-secret',
     }),
   ],
 })
